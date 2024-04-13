@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    color: white;
+    width: 100%;
+    padding: 0 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 100, 0);
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 30px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+   text-decoration: none;
+   color: white;
+   font-weight: 600;
+   transition: 1s ease;
+}
+
+
+
+nav ul li a:hover {
+    border-radius: 10px;
+    padding: 10px 15px;
+  color: rgb(2, 176, 2);
+}
+
+
+/* dropdown */
+
+
+.submenu{
+    display: none;
+}
+
+
+.submenu ul{
+text-align: left;
+
+
+
+}
+
+nav ul li:hover .submenu{
+    margin-top: 40px;
+    display: block;
+    width: 130px;
+    position: absolute;
+     background-color: green;
+   
+}
+
+
+.submenu ul li a{
+    font-size: 14px;
+    text-align: left;
+}
+
+
